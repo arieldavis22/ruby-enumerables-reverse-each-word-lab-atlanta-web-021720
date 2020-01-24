@@ -3,5 +3,5 @@ def reverse_each_word(string)
   string_arr.each do |s|
     s.reverse
   end
-  
+  string_arr
 end
