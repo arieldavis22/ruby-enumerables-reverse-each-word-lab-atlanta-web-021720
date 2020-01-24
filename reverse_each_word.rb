@@ -4,4 +4,4 @@ def reverse_each_word(string)
   yield(new_arr)
 end
 
-reverse_each_word("s") { |s| s.join(" ")}
+reverse_each_word.each("s") { |s| s.join(" ")}
